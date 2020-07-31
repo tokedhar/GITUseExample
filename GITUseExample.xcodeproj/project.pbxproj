@@ -13,6 +13,7 @@
 		FFD8BC2424D3E8F200A63353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD8BC2224D3E8F200A63353 /* Main.storyboard */; };
 		FFD8BC2624D3E8F600A63353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD8BC2524D3E8F600A63353 /* Assets.xcassets */; };
 		FFD8BC2924D3E8F600A63353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD8BC2724D3E8F600A63353 /* LaunchScreen.storyboard */; };
+		FFD8BC3124D3EE0300A63353 /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD8BC3024D3EE0300A63353 /* MapForItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FFD8BC2524D3E8F600A63353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFD8BC2824D3E8F600A63353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFD8BC2A24D3E8F600A63353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD8BC3024D3EE0300A63353 /* MapForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FFD8BC1E24D3E8F200A63353 /* SceneDelegate.swift */,
 				FFD8BC2024D3E8F200A63353 /* ViewController.swift */,
 				FFD8BC2224D3E8F200A63353 /* Main.storyboard */,
+				FFD8BC3024D3EE0300A63353 /* MapForItinerary.swift */,
 				FFD8BC2524D3E8F600A63353 /* Assets.xcassets */,
 				FFD8BC2724D3E8F600A63353 /* LaunchScreen.storyboard */,
 				FFD8BC2A24D3E8F600A63353 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFD8BC3124D3EE0300A63353 /* MapForItinerary.swift in Sources */,
 				FFD8BC2124D3E8F200A63353 /* ViewController.swift in Sources */,
 				FFD8BC1D24D3E8F200A63353 /* AppDelegate.swift in Sources */,
 				FFD8BC1F24D3E8F200A63353 /* SceneDelegate.swift in Sources */,
