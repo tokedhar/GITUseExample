@@ -22,10 +22,19 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ap0-pg-WAg"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My new label in a new branch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pbu-1h-YKE">
+                                <rect key="frame" x="76" y="242" width="262" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Pbu-1h-YKE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="0ge-Ja-Yto"/>
+                            <constraint firstItem="Pbu-1h-YKE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="198" id="Z5d-vN-rXo"/>
                             <constraint firstItem="UgE-iY-u9I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="prN-PK-xLl"/>
+                            <constraint firstItem="Pbu-1h-YKE" firstAttribute="centerX" secondItem="UgE-iY-u9I" secondAttribute="centerX" id="soF-0U-8Ky"/>
                             <constraint firstItem="UgE-iY-u9I" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xbQ-rT-oTc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -33,7 +42,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="138"/>
+            <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
         </scene>
     </scenes>
 </document>
